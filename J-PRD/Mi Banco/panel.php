@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,7 +11,11 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="http://localhost/xdv-main/css/style.css">
-    <link rel="icon" href="http://localhost/xdv-main//IMG/logo.png">
+    <link rel="stylesheet" href="http://localhost/xdv-main/css/suministros.css">
+    <link rel="stylesheet" href="http://localhost/xdv-main//css/barra_busqueda.css">
+    <link rel="stylesheet" href="http://localhost/xdv-main//css/J-PRD.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="http://localhost/xdv-main//img/xven.jpeg">
     <title>MI BANCO</title>
 </head>
 
@@ -41,13 +49,13 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="http://localhost/xdv-main/dashboard.php" class="nav-item nav-link ">Dashboard</a>
-                        <a href="clientes.php" class="nav-item nav-link ">Clientes</a>
-                        <a href="report.html" class="nav-item nav-link">IDS</a>
-                        <a href="report.php" class="nav-item nav-link">Reportes</a>
-                        <a href="DEVICES/devices.php" class="nav-item nav-link">DP</a>
-                        <a href="counter.php" class="nav-item nav-link">Contadores</a>
-                        <a href="listpart/listparts.php" class="nav-item nav-link">ListPart</a>
+                        <a href="../dashboard.php" class="nav-item nav-link ">Dashboard</a>
+                        <a href="../clientes.php" class="nav-item nav-link ">Clientes</a>
+                        <a href="../report.html" class="nav-item nav-link">IDS</a>
+                        <a href="../report.php" class="nav-item nav-link">Reportes</a>
+                        <a href="../DEVICES/devices.php" class="nav-item nav-link">DP</a>
+                        <a href="../counter.php" class="nav-item nav-link">Contadores</a>
+                        <a href="../listpart/listparts.php" class="nav-item nav-link">ListPart</a>
                     </div>
                 </div>
             </nav>

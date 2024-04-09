@@ -1,6 +1,8 @@
 <?php
 session_start();
-
+if (!empty($_SESSION["id"])) {
+    header("location: ../clientes.php");
+}
 ?>
 
 <!DOCTYPE html>
@@ -9,13 +11,15 @@ session_start();
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="http://localhost/xdv-main/img/xven.jpeg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="http://localhost/xdv-main/css/style.css">
     <link rel="stylesheet" href="http://localhost/xdv-main/css/suministros.css">
     <link rel="stylesheet" href="http://localhost/xdv-main//css/barra_busqueda.css">
     <link rel="stylesheet" href="http://localhost/xdv-main//css/J-PRD.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="icon" href="../IMG/logo.png">
+    <link rel="icon" href="http://localhost/xdv-main//img/xven.jpeg">
     <title>DHL</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -158,6 +162,7 @@ session_start();
                         <th class="col">Localidad</th>
                         <th class="col">Fecha</th>
                         <th class="col">file</th>
+                        <th class="col"></th>
                         <th class="col"></th>
                     </tr>
             
