@@ -1,7 +1,7 @@
 <?php
 session_start();
-if (!empty($_SESSION["id"])) {
-    header("location: http://localhost/xdv-main//IS.php");
+if (!empty($_SESSION[""])) {
+    header("location: ../clientes.php");
 }
 ?>
 

@@ -64,7 +64,7 @@ session_start();
                     ?>                    
                     </button>
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../Conn/controlador/cerrar.php">Cerrar Sesion</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/xdv-main///Conn/controlador/cerrar.php">Cerrar Sesion</a></li>
                     </ul>
                 </div>
                 </div>

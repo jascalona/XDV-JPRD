@@ -13,6 +13,7 @@ session_start();
     <link rel="stylesheet" href="http://localhost/xdv-main/css/xdv.css">
     <link rel="stylesheet" href="http://localhost/xdv-main//css/barra_busqueda.css">
     <link rel="stylesheet" href="http://localhost/xdv-main//css/J-PRD.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
     <!--Librerias & Freemwares icons-->
@@ -23,15 +24,13 @@ session_start();
 </head>
 <body>
     
-          <!--Header menu start-->
-          <header>
+           <!--Header menu start-->
+        <header>
             <div class="header-content">
 
                 <div class="logo">
                     <a href="http://localhost/xdv-main//index.html"><h1>Grupo<b>XDV</b></h1></a>
                 </div>
-
-                
 
                 <div class="menu" id="show-menu">
 
@@ -50,18 +49,24 @@ session_start();
                         <a href="../clientes.php" class="nav-item nav-link ">Clientes</a>
                         <a href="../report.html" class="nav-item nav-link">IDS</a>
                         <a href="../report.php" class="nav-item nav-link">Reportes</a>
-                        <a href="devices.php" class="nav-item nav-link">DP</a>
+                        <a href="../DEVICES/devices.php" class="nav-item nav-link">DP</a>
                         <a href="../counter.php" class="nav-item nav-link">Contadores</a>
                         <a href="../listpart/listparts.php" class="nav-item nav-link">ListPart</a>
                     </div>
                 </div>
             </nav>
 
-            <div style="font-size: 25px; font-weight: 600; position: relative; padding-top: 20px; margin-right: -100px;" class="name-user">
-                <?php
+                <div style="margin-top: 15px; margin-bottom: 15px; margin-right: -120px;" class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <?php
                     echo $_SESSION['user'];
-                ?>
-            </div>
+                    ?>                    
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="http://localhost/xdv-main///Conn/controlador/cerrar.php">Cerrar Sesion</a></li>
+                    </ul>
+                </div>
+                </div>
 
         </div>
         </header>

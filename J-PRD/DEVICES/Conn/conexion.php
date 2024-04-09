@@ -1,6 +1,6 @@
 <?php
 
-$conexion = new mysqli('localhost', 'root', 'root', 'dpgsv60', '3308');
+$conexion = new mysqli('localhost', 'root', '', 'dpgsv60', '3306');
 $conexion->set_charset("utf8");
 
 
