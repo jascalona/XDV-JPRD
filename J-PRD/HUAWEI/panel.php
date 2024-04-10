@@ -17,7 +17,7 @@ session_start();
     <link rel="stylesheet" href="http://localhost/xdv-main//css/J-PRD.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="http://localhost/xdv-main//img/xven.jpeg">
-    <title>MI BANCO</title>
+    <title>HUAWEI</title>
 </head>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +34,7 @@ session_start();
             <div class="header-content">
 
                 <div class="logo">
-                    <a href="http://localhost/xdv-main//index.html"><h1>Grupo<b>XDV</b></h1></a>
+                    <a style="text-decoration: none; color: #000;" href="http://localhost/xdv-main//index.html"><h1>Grupo<b>XDV</b></h1></a>
                 </div>
 
                 <div class="menu" id="show-menu">
@@ -79,7 +79,7 @@ session_start();
 
 
         <div style="margin-top: 100px; display:flex; font-size: 35px; margin-left: 15%;" class="title">
-                <a href="/huawei/panel.php" style="color: brown;"><p>Cartas de Instalación</a><b>/</b></p><a href="#"><p>Desisntalación</p></a>
+                <a style="text-decoration: none;" href="/huawei/panel.php" style="color: brown;"><p>Cartas de Instalación</a><b>/</b></p><a style="text-decoration: none;" href="#"><p>Desisntalación</p></a>
            </div>
 
         <?php
@@ -162,6 +162,7 @@ session_start();
                         <th class="col">Fecha</th>
                         <th class="col">file</th>
                         <th class="col"></th>
+                        <th class="col"></th>
                     </tr>
             
                 </thead>
@@ -179,7 +180,7 @@ session_start();
                             <td><?= $datos->date?></td>
                             <td><a class="btnPre" href="../huawei/controlador/preview.php"><?= $datos->file?></a></td>
                             <td>
-                                <a href="#"><i class='bx bx-envelope-open'></i></a>
+                                <a href="#"><i class='bx bxs-edit-alt'></i></a>
                             </td>
                             <td>
                                 <a href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>

@@ -103,7 +103,7 @@ session_start();
                                 
                         <!--satrt php-->
                         <?php
-                    $conexion=mysqli_connect("localhost","root","","pj"); 
+                    $conexion=mysqli_connect("localhost","root","","dpsgv60"); 
                     $where="";
 
                     if(isset($_GET['enviar'])){
@@ -263,7 +263,7 @@ session_start();
 
                     <?php
 
-                    $conexion=mysqli_connect("localhost","root","","pj", "3306");               
+                    $conexion=mysqli_connect("localhost","root","","dpsgv60", "3306");               
                     $SQL="SELECT devices.rif, devices.serial, devices.model, devices.customer, devices.dp, devices.location, devices.region,
                     devices.total FROM devices
                     $where";
