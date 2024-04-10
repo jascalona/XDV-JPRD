@@ -86,7 +86,7 @@ session_start();
 
 
         <div style="margin-top: 50px; display:flex; font-size: 35px; margin-left: 15%;" class="title">
-                <a style="text-decoration: none;" href="/huawei/panel.php" style="color: brown;"><p>Cartas de Instalación</a><b>/</b></p><a style="text-decoration: none;" href="#"><p>Desisntalación</p></a>
+                <p style="font-weight: 600;">Cartas de Instalación</p>
            </div>
 
         <?php

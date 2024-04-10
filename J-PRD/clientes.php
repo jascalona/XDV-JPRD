@@ -138,7 +138,7 @@ session_start();
                                     </div>
                                 </div>
                                 <h4 style="color: #fff;" class="font-weight-bold mb-3">CARTAS DE INSTALACION</h4>
-                                <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
+                                <p style="color: #fff;">Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
                             </div>
                         </div>
 
@@ -163,7 +163,7 @@ session_start();
                                     </div>
                                 </div>
                                 <h4 style="color: #fff;" class="font-weight-bold mb-3">CARTAS DE DESISNTALACION</h4>
-                                <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
+                                <p style="color: #fff;">Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
                             </div>
                         </div>
                     </div>

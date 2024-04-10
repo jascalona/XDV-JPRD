@@ -8,20 +8,38 @@ $sql=$conexion->query(" SELECT *FROM customer_inst WHERE id=$id");
 
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>MODIFICATION</title>
+</head>
+
+<body style="background-image: url(https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;">
+    
+
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
 
+
         <!--start btn modal-->
-        <div style="margin-left: 15%; margin-right: 30%;" class="modal-global">
+        <div style="display: flex; justify-content: center; margin-top: 3%;" class="modal-global">
             <form action="" method="POST">
-            <div class="container-modal-folder">
+            <div  style="border: 1px solid ffffff83; padding-left: 150px; padding-right: 150px; padding-top: 50px; padding-bottom: 30px; background: #ffffff83; border-radius: 7px;" class="container-modal-folder">
 
                 <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">Modificar Datos</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                         <input type="hidden" name="id" value="<?= $_GET['id']?>">
                     
@@ -72,7 +90,6 @@ $sql=$conexion->query(" SELECT *FROM customer_inst WHERE id=$id");
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                                         <button type="submit" class="btn btn-primary" name="btnModificar" value="ok" >Modificar</button>
                                     </form>
                                     </div>
@@ -87,3 +104,8 @@ $sql=$conexion->query(" SELECT *FROM customer_inst WHERE id=$id");
                     
                     
         <!--end btn modal-->
+
+
+
+</body>
+</html>
