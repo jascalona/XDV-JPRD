@@ -180,7 +180,7 @@ session_start();
                             <td><?= $datos->date?></td>
                             <td><a class="btnPre" href="../huawei/controlador/preview.php"><?= $datos->file?></a></td>
                             <td>
-                                <a href="#"><i class='bx bxs-edit-alt'></i></a>
+                                <a href="./controlador/edit.php"><i class='bx bxs-edit-alt'></i></a>
                             </td>
                             <td>
                                 <a href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
