@@ -179,7 +179,12 @@ session_start();
                             <td><?= $datos->location?></td>
                             <td><?= $datos->date?></td>
                             <td><a class="btnPre" href="../huawei/controlador/preview.php"><?= $datos->file?></a></td>
-                           
+
+                            <td>
+                                <a class="btn btn-primary" href="./controlador/edit.php?id=<?= $datos->id?>"><i class='bx bxs-edit-alt'></i></a>
+                            </td>
+
+
                     <!--start btn modal
 
                             <td>
@@ -246,7 +251,7 @@ session_start();
                                 end btn modal-->
 
                             <td>
-                                <a href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
+                                <a class="btn btn-primary" href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
                             </td>
                         </tr>
                         <?php
