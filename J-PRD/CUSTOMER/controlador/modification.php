@@ -12,7 +12,7 @@ if (!empty($_POST['btnModificar'])) {
         $date=$_POST['date'];
         $file=$_POST['file'];
 
-        $sql=$conexion->query(" UPDATE customer SET serial='$serial', modelo='$modelo', location='$location', 
+        $sql=$conexion->query(" UPDATE customer_inst SET serial='$serial', modelo='$modelo', location='$location', 
         date='$date', file='$file',  rif='$rif', cliente='$cliente' WHERE id='$id' ");
 
         if ($sql==1) {

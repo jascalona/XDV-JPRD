@@ -188,7 +188,7 @@ session_start();
                 <tbody>
                     <?php
                     include "modelo/conexion.php";
-                    $sql=$conexion->query(" select *from customer ");
+                    $sql=$conexion->query(" select *from customer_inst ");
                     while($datos = $sql->fetch_object()){ ?>
 
                         <tr>

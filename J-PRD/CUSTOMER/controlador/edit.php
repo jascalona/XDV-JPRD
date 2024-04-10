@@ -4,7 +4,7 @@ include "../modelo/conexion.php";
     
 $id=$_GET['id'];
 
-$sql=$conexion->query(" SELECT *FROM customer WHERE id=$id");
+$sql=$conexion->query(" SELECT *FROM customer_inst WHERE id=$id");
 
 ?>
 

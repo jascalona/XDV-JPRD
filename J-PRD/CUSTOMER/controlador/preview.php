@@ -6,7 +6,7 @@ if (!empty($_POST['btnPre'])){
 
     $file['file'];
 
-    $preView = $conexion->query(" SELECT file FROM huawei  ");
+    $preView = $conexion->query(" SELECT file FROM customer_inst  ");
     if ($preView==1) ;
    }
 }

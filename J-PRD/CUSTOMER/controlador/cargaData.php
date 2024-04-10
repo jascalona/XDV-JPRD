@@ -10,7 +10,7 @@ if (!empty($_POST['btnCarga'])) {
         $date = $_POST['date'];
         $file = $_POST['file'];
 
-        $sql = $conexion->query(" insert into customer(rif,serial,modelo,cliente,location,date,file)values('$rif','$serial','$modelo','$cliente','$location','$date','$file')");
+        $sql = $conexion->query(" insert into customer_inst(rif,serial,modelo,cliente,location,date,file)values('$rif','$serial','$modelo','$cliente','$location','$date','$file')");
         if ($sql==1) {
             echo '<div style="margin-left: 470px; position: absolute;" class="alert alert-success">LA CARGA SE REALIZO CORRECTAMENTE</div>';
         } else {
