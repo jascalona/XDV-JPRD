@@ -179,19 +179,18 @@ session_start();
                             <td><?= $datos->location?></td>
                             <td><?= $datos->date?></td>
                             <td><a class="btnPre" href="../huawei/controlador/preview.php"><?= $datos->file?></a></td>
-                            
+                           
+                    <!--start btn modal
+
                             <td>
-                                <!--start btn modal-->
 
-                                <?php
-                                include "./controlador/edit.php";
-                                ?>
 
-                                <div style="margin-left: 15%;" class="modal-global">
+                                <div style="margin-left: 15%;" class="modal-">
                                         <form action="" method="POST">
                                         <div class="container-modal-folder">
 
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFolder" data-bs-whatever="@data"><a href="./controlador/edit.php"></a><i class='bx bxs-edit-alt'></i></button>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFolder" data-bs-whatever="@data">
+                                                <a href="./controlador/edit.php"></a><i class='bx bxs-edit-alt'></i></button>
                                             
                                             <div class="modal fade" id="modalFolder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -242,8 +241,10 @@ session_start();
                                                 </div>
                                             </div>
                                     </div>
-                                    <!--end btn modal-->                            
+                                                                
                                     </td>
+                                end btn modal-->
+
                             <td>
                                 <a href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
                             </td>
