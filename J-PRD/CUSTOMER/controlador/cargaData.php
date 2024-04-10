@@ -1,15 +1,16 @@
 <?php
 
 if (!empty($_POST['btnCarga'])) {
-    if (!empty($_POST['serial']) and !empty($_POST['modelo']) and !empty($_POST['location']) and !empty($_POST['date']) and !empty($_POST['file'])){
-
+    if (!empty($_POST['rif']) and !empty($_POST['serial']) and !empty($_POST['modelo']) and !empty($_POST['cliente']) and !empty($_POST['location']) and !empty($_POST['date']) and !empty($_POST['file'])){
+        $rif = $_POST['rif'];
         $serial = $_POST['serial'];
         $modelo = $_POST['modelo'];
+        $cliente = $_POST['cliente'];
         $location = $_POST['location'];
         $date = $_POST['date'];
         $file = $_POST['file'];
 
-        $sql = $conexion->query(" insert into huawei(serial,modelo,location,date,file)values('$serial','$modelo','$location','$date','$file')");
+        $sql = $conexion->query(" insert into customer(rif,serial,modelo,cliente,location,date,file)values('$rif','$serial','$modelo','$cliente','$location','$date','$file')");
         if ($sql==1) {
             echo '<div style="margin-left: 470px; position: absolute;" class="alert alert-success">LA CARGA SE REALIZO CORRECTAMENTE</div>';
         } else {

@@ -17,7 +17,7 @@ session_start();
     <link rel="stylesheet" href="http://localhost/xdv-main//css/J-PRD.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="http://localhost/xdv-main//img/xven.jpeg">
-    <title>HUAWEI</title>
+    <title>Clientes</title>
 </head>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,7 +78,14 @@ session_start();
         <!--Header menu end-->
 
 
-        <div style="margin-top: 100px; display:flex; font-size: 35px; margin-left: 15%;" class="title">
+        <div class="blog-container-cover">
+            <div class="container-info-cover">
+                <img src="http://localhost/xdv-main//img//imgheader/XEROX LOGO.png" alt="#" style="width: 550px; display: flex; justify-content: center; flex-wrap: wrap; ">
+            </div>
+        </div>
+
+
+        <div style="margin-top: 50px; display:flex; font-size: 35px; margin-left: 15%;" class="title">
                 <a style="text-decoration: none;" href="/huawei/panel.php" style="color: brown;"><p>Cartas de Instalación</a><b>/</b></p><a style="text-decoration: none;" href="#"><p>Desisntalación</p></a>
            </div>
 
@@ -110,6 +117,11 @@ session_start();
                         <form>
 
                         <div class="mb-3">
+                            <label for="serial" class="col-form-label">Rif</label>
+                            <input type="text" class="form-control" id="rif" name="rif" placeholder="Rif del Cliente" required>
+                        </div>
+
+                        <div class="mb-3">
                             <label for="serial" class="col-form-label">Serial</label>
                             <input type="text" class="form-control" id="serial" name="serial" placeholder="Serial del equipo" required>
                         </div>
@@ -117,6 +129,11 @@ session_start();
                         <div class="mb-3">
                             <label for="model" class="col-form-label">Modelo</label>
                             <input type="text" class="form-control" id="modelo" name="modelo" placeholder="Modelo del equipo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="model" class="col-form-label">Cliente</label>
+                            <input type="text" class="form-control" id="cliente" name="cliente" placeholder="Modelo del equipo" required>
                         </div>
 
                         <div class="mt-3">
@@ -150,14 +167,16 @@ session_start();
         </div>
         <!--end btn modal-->
         
-            <div style="margin-right: 10%; margin-top: 200px; margin-left: 15% ; " class="container-vistas">
+            <div style="margin-right: 10%; margin-top: 50px; margin-left: 15% ; " class="container-vistas">
                 <table class="table table-striped" >    
             
                 <thead class="bg-info">
                     <tr>
                         <th class="col">id</th>
+                        <th class="col">Rif</th>
                         <th class="col">Serial</th>
                         <th class="col">Modelo</th>
+                        <th class="col">Cliente</th>
                         <th class="col">Localidad</th>
                         <th class="col">Fecha</th>
                         <th class="col">file</th>
@@ -169,13 +188,15 @@ session_start();
                 <tbody>
                     <?php
                     include "modelo/conexion.php";
-                    $sql=$conexion->query(" select *from huawei ");
+                    $sql=$conexion->query(" select *from customer ");
                     while($datos = $sql->fetch_object()){ ?>
 
                         <tr>
                             <td><?= $datos->id?></td>
+                            <td><?= $datos->rif?></td>
                             <td><?= $datos->serial?></td>
                             <td><?= $datos->modelo?></td>
+                            <td><?= $datos->cliente?></td>
                             <td><?= $datos->location?></td>
                             <td><?= $datos->date?></td>
                             <td><a class="btnPre" href="../huawei/controlador/preview.php"><?= $datos->file?></a></td>

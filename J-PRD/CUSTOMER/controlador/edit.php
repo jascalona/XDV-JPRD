@@ -4,7 +4,7 @@ include "../modelo/conexion.php";
     
 $id=$_GET['id'];
 
-$sql=$conexion->query(" SELECT *FROM huawei WHERE id=$id");
+$sql=$conexion->query(" SELECT *FROM customer WHERE id=$id");
 
 ?>
 
@@ -31,6 +31,11 @@ $sql=$conexion->query(" SELECT *FROM huawei WHERE id=$id");
 
                         <div class="modal-body">
                                     <form>
+                                    
+                                    <div class="mb-3">
+                                        <label for="serial" class="col-form-label">Rif</label>
+                                        <input type="text" class="form-control" id="rif" name="rif" placeholder="Serial del equipo" value="<?= $datos->rif?>">
+                                    </div>
 
                                     <div class="mb-3">
                                         <label for="serial" class="col-form-label">Serial</label>
@@ -40,6 +45,11 @@ $sql=$conexion->query(" SELECT *FROM huawei WHERE id=$id");
                                     <div class="mb-3">
                                         <label for="model" class="col-form-label">Modelo</label>
                                         <input type="text" class="form-control" id="modelo" name="modelo" placeholder="Modelo del equipo" value="<?= $datos->modelo?>">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="serial" class="col-form-label">Cliente</label>
+                                        <input type="text" class="form-control" id="cliente" name="cliente" placeholder="Serial del equipo" value="<?= $datos->cliente?>">
                                     </div>
 
                                     <div class="mt-3">
