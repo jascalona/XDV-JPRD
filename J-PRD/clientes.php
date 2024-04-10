@@ -81,194 +81,95 @@ session_start();
             </div>
         </div>
 
-        <div style="margin-top: 3%;" class="container-fluid py-5">
-            <div class="container pt-5 pb-3">
-                <div class="text-center mb-3 pb-3">
-                    </div>
-                
-                <div class="row">
-                    
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-bigott.jpg" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="bigott/panel.php">Bigott</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/BBVA-Logo.png" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="BBVA/panel.html">Provincial</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-caf.jpg" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="http://localhost/xdv-main//gc/actualizacionesFirmware.html">CAF</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-defensa publica.jpg" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="DEFENSA/panel.html">Defensa Publica</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Features Start -->
+        <div style="background: #f3f3f3;" class="container-fluid my-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <img class="img-fluid w-100" src="http://localhost/xdv-main//img/xdv.jpeg" alt="">
                     </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-dhl.png" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="DHL/panel.php">DHL</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-7 py-5 py-lg-0">
+                        <h6 class="text-primary text-uppercase font-weight-bold">XDV</h6>
+                        <h1 class="mb-4">J-PRD La intefaz ideal para el Usuario</h1>
+                        <p class="mb-4">J-PRD (Jose - Interfaz de Desarrollo para el Repositorio Primitivo) 
+                            Es un software que trabaja en red diseñado para la automatización de procesos y consultas a una base de datos, 
+                            remplazando un gestor de data por una interfaz agradable para el usuario.</p>
+                        <ul class="list-inline">
+                            <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Transformación digital</h6>
+                            <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Automatizacion de Procesos</h6></li>
+                            <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Mejoras Continuas</h6></li>
+                            <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Desarrollo de Modulos</h6></li>
+                        </ul>
+                        <a href="./CUSTOMER/PRESENTACION J-PRD.pptx" class="btn btn-primary mt-3 py-2 px-4">Leer Mas</a>
                     </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-farmatodo.jpg" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="FARMATODO/panel.html">Farmatodo</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-grano.jpg" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="GRANO ALTO/panel.html">Grano Alto</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-HUAWEI.png" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="CUSTOMER/panel.php">Huawei</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-kpmg.png" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="KPMG/panel.html">KPMG</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo-polar.jpg" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="POLAR/panel.html">Polar</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="package-item bg-white mb-2">
-                            <img class="img-fluid" src="http://localhost/xdv-main//img/clientes/logo_mi_banco_GRIS.png" alt="#">
-                            <div class="p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Caracas</small>
-                                </div>
-                                <a class="h5 text-decoration-none text-primary" href="http://localhost/xdv-main//J-PRD/Mi Banco/panel.php">Mi Banco</a>
-                                <div class="border-top mt-4 pt-4">
-                                    <div class="d-flex justify-content-between">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-        <!-- servicios scanner End -->
+        <!-- Features End -->
+
+
+        <!-- Blog Start -->
+        <div class="container-fluid pt-5">
+                <div class="container">
+                    <div class="text-center pb-2">
+                        <h6 class="text-primary text-uppercase font-weight-bold">MODULO CAC</h6>
+                        <h1 class="mb-4"><?php echo $_SESSION['name'];?>, Bienvenido al portal de Socios XDV</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                                    style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                                    <h4 class="font-weight-bold mb-n1">01</h4>
+                                    <small class="text-white text-uppercase">Fort</small>
+                                </div>
+                            </div>
+                            <div class="bg-secondary" style="padding: 30px;">
+                                <div class="d-flex mb-3">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle" style="width: 40px; height: 40px;" src="http://localhost/xdv-main//img/FORT.png" alt="">
+                                        <a class="text-muted ml-2" href="">Designed by JE</a>
+                                    </div>
+                                    <div class="d-flex align-items-center ml-4">
+                                        <i class="far fa-bookmark text-primary"></i>
+                                        <a class="text-muted ml-2" href="./CUSTOMER/panel.php">Visualizar</a>
+                                    </div>
+                                </div>
+                                <h4 style="color: #fff;" class="font-weight-bold mb-3">CARTAS DE INSTALACION</h4>
+                                <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-5">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                                    style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                                    <h4 class="font-weight-bold mb-n1">02</h4>
+                                    <small class="text-white text-uppercase">Fort</small>
+                                </div>
+                            </div>
+                            <div class="bg-secondary" style="padding: 30px;">
+                                <div class="d-flex mb-3">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle" style="width: 40px; height: 40px;" src="http://localhost/xdv-main//img/FORT.png" alt="">
+                                        <a class="text-muted ml-2" href="">Designed by JE</a>
+                                    </div>
+                                    <div class="d-flex align-items-center ml-4">
+                                        <i class="far fa-bookmark text-primary"></i>
+                                        <a class="text-muted ml-2" href="./Mi Banco/panel.php">Visualizar</a>
+                                    </div>
+                                </div>
+                                <h4 style="color: #fff;" class="font-weight-bold mb-3">CARTAS DE DESISNTALACION</h4>
+                                <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog End -->
 
 
 
