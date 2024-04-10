@@ -187,6 +187,7 @@ session_start();
                         <th class="col">file</th>
                         <th class="col"></th>
                         <th class="col"></th>
+                        <th class="col"></th>
                     </tr>
             
                 </thead>
@@ -204,7 +205,7 @@ session_start();
                             <td><?= $datos->cliente?></td>
                             <td><?= $datos->location?></td>
                             <td><?= $datos->date?></td>
-                            <td><a class="btnPre" href="../huawei/controlador/preview.php"><?= $datos->file?></a></td>
+                            <td><a class="btnPre" href="./controlador/preview.php"><?= $datos->file?></a></td>
 
                             <td>
                                 <a class="btn btn-primary" href="./controlador/edit.php?id=<?= $datos->id?>"><i class='bx bxs-edit-alt'></i></a>
@@ -278,6 +279,10 @@ session_start();
 
                             <td>
                                 <a onclick="return eliminar()" class="btn btn-primary" href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
+                            </td>
+
+                            <td>
+                                <a class="btn btn-primary" href="./controlador/download.php?id=<?= $datos->id?>"><i class='bx bxs-download'></i></a>
                             </td>
                         </tr>
                         <?php
