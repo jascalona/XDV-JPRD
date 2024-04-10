@@ -27,7 +27,12 @@ session_start();
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
 
 <body>
-    
+    <script>
+        function eliminar(){
+            var respuesta=confirm("Estas seguro de eliminar esta fila?\n\nNOTA: ESTA FILA DESAPARECERA DE LA BASE DE DATOS");
+            return respuesta
+        }
+    </script>
 
             <!--Header menu start-->
         <header>
@@ -272,7 +277,7 @@ session_start();
                                 end btn modal-->
 
                             <td>
-                                <a class="btn btn-primary" href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
+                                <a onclick="return eliminar()" class="btn btn-primary" href="panel.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
                             </td>
                         </tr>
                         <?php
