@@ -83,7 +83,7 @@ session_start();
 
         <div class="container-report">
             <div class="report">
-                <a href="http://localhost/proyecto-j//reportes/LSC-GSI-PSI-FOR-004 Carta de Instalación E1-R11.xlsx"><img src="http://localhost/proyecto-j//IMG/folder.svg" alt=""></a>
+                <a href="http://localhost/proyecto-j//reportes/LSC-GSI-PSI-FOR-004 Carta de Instalación E1-R11.xlsx"><img src="http://localhost/xdv-main//img/folder.svg" alt=""></a>
                 <div class="lin"></div>
             <div class="link">
                 <a href="http://localhost/proyecto-j//reportes/LSC-GSI-PSI-FOR-004 Carta de Instalación E1-R11.xlsx"><p>Formato Instalacion</p></a>
@@ -91,7 +91,7 @@ session_start();
             </div>
         
             <div class="report">
-                <a href="http://localhost/proyecto-j//reportes/SAC-GSI-PSI-FOR-005 Carta de Desinstalación E1-R02.xlsx"><img src="http://localhost/proyecto-j//IMG/folder.svg" alt=""></a>
+                <a href="http://localhost/proyecto-j//reportes/SAC-GSI-PSI-FOR-005 Carta de Desinstalación E1-R02.xlsx"><img src="http://localhost/xdv-main//img/folder.svg" alt=""></a>
                 <div class="lin"></div>
                 <div class="link">
                     <a href="http://localhost/proyecto-j//reportes/SAC-GSI-PSI-FOR-005 Carta de Desinstalación E1-R02.xlsx"><p>Formato Desisntalacion</p></a>
@@ -99,7 +99,7 @@ session_start();
             </div>
         
             <div class="report">
-                <a href="http://localhost/proyecto-j//reportes/Formulario Control de Asistencia Inducción.xlsx"><img src="http://localhost/proyecto-j//IMG/folder.svg" alt=""></a>
+                <a href="http://localhost/proyecto-j//reportes/Formulario Control de Asistencia Inducción.xlsx"><img src="http://localhost/xdv-main//img/folder.svg" alt=""></a>
                 <div class="lin"></div>
                 <div class="link">
                     <a href="http://localhost/proyecto-j//reportes/Formulario Control de Asistencia Inducción.xlsx"><p>Formato Control de Asistencia</p></a>
