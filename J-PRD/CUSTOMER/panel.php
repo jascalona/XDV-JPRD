@@ -104,6 +104,7 @@ session_start();
         ?>
 
 
+
         <!--start btn modal-->
         <div style="margin-left: 15%;" class="modal-global">
             <form action="" method="POST">
@@ -170,9 +171,67 @@ session_start();
                     </div>
                 </div>
         </div>
+
         <!--end btn modal-->
+
+        <!--start  plugins-->
+
+        <div style="margin-left: 23%; margin-top: -35px;" class="plugin-filter">
+                <form action="panel.php" method="GET">
+
+                    <div style="position: absolute; margin-left: 10%;" class="btn-grop" role="group">
+                        <select class="btn btn-primary dropdown-toggle" name="location" id="location">
+                            <option value="">Filtrar Localidad</option>
+                            <option value="">B405</option>
+                            <option value="">C405</option>
+                            <option value="">WC7220</option>
+                            <option value="">PHASER</option>
+                            <option value="">C7000</option>
+                        </select>
+                    </div>
+
+                    
+                    <div style="position: absolute; margin-left: 20%;" class="btn-grop" role="group">
+                        <select class="btn btn-primary dropdown-toggle" name="date" id="date">
+                            <option value="">Filtrar Fecha</option>
+                            <option value="2024-04-04">2024-04-04</option>
+                            <option value="2023-05-22">2023-05-22</option>
+                          
+                        </select>
+                    </div>
+
+
+                    <div class="btn-grop" role="group">
+                        <select class="btn btn-primary dropdown-toggle" name="modelo" id="modelo">
+                            <option value="">Filtrar Modelo</option>
+                            <option value="b405">b405</option>
+                            <option value="C7000">C7000</option>
+                            <option value="C405">C405</option>
+                            <option value="">PHASER</option>
+                            <option value="">C7000</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <div style="margin-left: -12%;" class="btn-filter">
+                        <div class="btn-group" role="group">
+                                <button type="submit" name="search" id="search" class="btn btn-primary" value="search">Aplicar Filtros</button>
+                            </div>
+                            
+
+                            <div style="margin-left: 10px;" class="btn-group" role="group">
+                                <button type="submit" name="reset" id="reset" class="btn btn-primary" value="reset">Limpiar Filtros</button>
+                            </div>
+                        
+                        </form>
+                    </div>
+            </div>
+
+        <!--end plugins-->
+
         
-            <div style="margin-right: 10%; margin-top: 50px; margin-left: 15% ; " class="container-vistas">
+            <div style="margin-right: 10%; margin-top: 8%; margin-left: 15% ; " class="container-vistas">
                 <table class="table table-striped" >    
             
                 <thead class="bg-info">
